@@ -10,5 +10,11 @@
             />
         </xpath>
     </template>
+
+    <template id="layout" inherit_id="web.layout">
+        <xpath expr="//title" position="replace">
+            <title t-esc="title or 'JRM HR'"/>
+        </xpath>
+    </template>
     
 </odoo>
